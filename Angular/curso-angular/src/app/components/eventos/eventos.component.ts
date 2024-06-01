@@ -13,8 +13,8 @@ export class EventosComponent implements OnInit {
   ngOnInit(): void {}
 
   showMessage(): void {
-    // this.show = true;  /// Isso muda a variavel pra true 
-    this.show = !this.show; /// toggle recuso JS // aqui de maneira inteligente, como a variavel inicia em false
+    //this.show = true;  /// Isso muda a variavel pra true 
+   this.show = !this.show; /// toggle recuso JS // aqui de maneira inteligente, como a variavel inicia em false
                             //// com o ! nós dizemos que ela sera sempre o contrário do que for
                             //// por isso, se ela for true, ela vai ser false, e vice versa
   }
