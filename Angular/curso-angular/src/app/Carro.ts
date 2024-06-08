@@ -5,7 +5,3 @@ export interface Carro {
 }
 
 
-carsDetail = '';
-showSpecs(carro: Carro): void{
-  this.carsDetail = `O carro ${carro.brand} tem ${carro.horsePower} cavalos ` 
-}
